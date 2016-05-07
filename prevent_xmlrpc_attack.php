@@ -31,4 +31,4 @@ foreach ($pool as $ip => $counts) {
 
 }
 
-shell_exec("/sbin/iptables -L -n");
+echo shell_exec("/sbin/iptables -L -n");
